@@ -32,7 +32,7 @@ public class CoinChangeCalculator {
         var result = MakeChange(n);
         Console.WriteLine($"Representações de {n} centavos:");
         foreach (var entry in result) {
-            Console.WriteLine($"[{entry[0]+","}, {entry[1]+","}, {entry[2]+","}, {entry[3]}]");
+            Console.WriteLine($"[{entry[0]}, {entry[1]}, {entry[2]}, {entry[3]}]");
         }
     }
 }
